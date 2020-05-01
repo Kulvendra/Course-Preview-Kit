@@ -1,0 +1,13 @@
+Copy All the Course Folder into the course folder inside the repo.
+Then run the code.py file
+Now you can watch all your course at index.html.
+
+Downloaded Course file structure should be :
+	
+	Course Name (directory)
+		-Module1 (directory)
+			-intro.mp4 (file)
+		-Module2 ((directory)
+			-hello.mp4 (file)	
+
+Try not to use any special character in the course name. 

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    
+
+    <title>My Courses</title>
+</head>
+
+<style>
+    body{
+     background-color: darkgray;   
+    }
+    h1{
+        background-color: black;
+        color: white;
+    }
+    li{
+        text-align: center;
+    
+    }
+    .container{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    li:hover{
+        font-size: x-large;
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+    }
+
+</style>
+
+
+<body>
+<nav class="navbar-light bg-light">
+    <h1 style="text-align: center;" id="title">My Courses</h1>
+  </nav>
+
+ 
+
+  <div class="container" id="courseContainer">
+  
+    
+    <ul class="list-group" id="courseList">
+    
+      </ul>
+    
+  </div>
+
+  <div class="container" hidden id="module">
+    <ul class="list-group" id="moduleList">
+        
+     
+      </ul>
+  </div>
+  
+  <div style="text-align: center;" hidden id="backButton">
+    <button type="button" class="btn btn-warning" onclick="backButton()">Go Back</button>
+</div>
+
+
+  <div class="container">
+
+  <div class="card text-center">
+
+
+
+    <div class="card-body">
+      <h5 class="card-title">This is create by Kulvendra Singh</h5>
+      <p class="card-text">IIT Jammu,Computer Science</p>
+    </div>
+   
+  </div>
+</div>
+
+
+
+</body>
+
+<script src="src/script.js"></script>
+</html>
